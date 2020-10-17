@@ -47,6 +47,7 @@ contract SolnSquareVerifier is HouseToken {
         });
          solutions_mapping[solutionHash] = solution;
          solutions_arr.push(solution);
+         solutionsCount.increment();
          emit SolutionAdded(solutionsCount.current(), msg.sender);
     }
 
