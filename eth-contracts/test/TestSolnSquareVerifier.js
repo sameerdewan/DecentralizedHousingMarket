@@ -14,7 +14,7 @@ contract('Test Verifier and SolnSquareVerifier', accounts => {
     const inputs = json.inputs;
 
     // Test if a new solution can be added for contract - SolnSquareVerifier
-    describe.only('Test if a new solution can be added for contract - SolnSquareVerifier', () => {
+    describe('Test if a new solution can be added for contract - SolnSquareVerifier', () => {
         let verifier;
         let solnSquareVerifier;
         let owner;
@@ -24,10 +24,12 @@ contract('Test Verifier and SolnSquareVerifier', accounts => {
             solnSquareVerifier = await SolnSquareVerifier.new(verifier.address, tokenName, tokenSymbol, { from: owner });
         });
 
-        it('Can add a new solution for contract - SolnSquareVerifier and can mint an ERC71 token for contract - SolnSquareVerifier', async () => {
+        it('Can add a new solution for contract - SolnSquareVerifier', async () => {
             const tx = await solnSquareVerifier.addSolution(A, B, C, inputs, { from: owner });
             truffleAssert.eventEmitted(tx, 'SolutionAdded');
+        });
 
+        it('Can mint an ERC71 token for contract - SolnSquareVerifier', async () => {
             await solnSquareVerifier.mintNFT(inputs[0], inputs[1], owner, { from: owner });
             const nftOwner = await solnSquareVerifier.ownerOf(0); // only one token minted
             assert.equal(nftOwner, owner, 'Error: Owner not equal to nftOwner');
