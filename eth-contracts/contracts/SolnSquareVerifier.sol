@@ -38,9 +38,15 @@ contract SolnSquareVerifier is HouseToken {
     ) public {
         bytes32 solutionHash = keccak256(abi.encodePacked(input[0], input[1]));
         require(solutions_mapping[solutionHash].account == address(0), 'Error: Not a new solution.');
-         bool verified = _verifier.verifyTx(a, b, c, input);
-         require(verified, 'Error: Not verified.');
-         solutions_arr.push(Solution({ index: solutionsCount.current(), account: msg.sender, minted: false }));
+        bool verified = _verifier.verifyTx(a, b, c, input);
+        require(verified, 'Error: Not verified.');
+        Solution memory solution = Solution({
+            index: solutionsCount.current(),
+            account: msg.sender,
+            minted: false
+        });
+         solutions_mapping[solutionHash] = solution;
+         solutions_arr.push(solution);
          emit SolutionAdded(solutionsCount.current(), msg.sender);
     }
 
