@@ -202,7 +202,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 10616,
+                        "referencedDeclaration": 10621,
                         "src": "158:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -286,7 +286,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 10616,
+                        "referencedDeclaration": 10621,
                         "src": "209:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -851,7 +851,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 10616,
+                        "referencedDeclaration": 10621,
                         "src": "158:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -935,7 +935,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 10616,
+                        "referencedDeclaration": 10621,
                         "src": "209:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -1381,12 +1381,12 @@
     "4": {
       "events": {},
       "links": {},
-      "address": "0x51c0f33Aa0E6BD672587c9c4183bB35b84C0e1FD",
-      "transactionHash": "0x387193cd58452b12e237cc5ae227bc2677c0967c9e9b288d5dc00392276bf8d6"
+      "address": "0x9348eACaBA70a855d51dbd3332eE6B1748808a04",
+      "transactionHash": "0x6e09fe9802d9d3db43c8268a61993846c8a95e6584f024f3757aae1cef375ac2"
     }
   },
   "schemaVersion": "3.1.0",
-  "updatedAt": "2020-10-17T21:36:16.637Z",
+  "updatedAt": "2020-10-17T22:47:48.815Z",
   "networkType": "quorum",
   "devdoc": {
     "methods": {}
