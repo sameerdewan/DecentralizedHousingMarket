@@ -5,7 +5,6 @@ const json = require('../../zokrates/code/square/proof.json');
 
 contract('Test Verifier and SolnSquareVerifier', accounts => {
     const account_one = accounts[0];
-    const account_two = accounts[1];
     const tokenName = 'HouseToken';
     const tokenSymbol = 'HOUSE';
 
