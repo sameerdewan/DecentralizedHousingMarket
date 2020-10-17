@@ -64,18 +64,20 @@ contract('Test HouseToken', accounts => {
         })
     });
 
-    // describe('have ownership properties', function () {
-    //     beforeEach(async function () { 
-    //         this.contract = await ERC721Mintable.new({from: account_one});
-    //     })
+    describe('have ownership properties', function () {
+        beforeEach(async function () { 
+            instance = await HouseToken.new(tokenName, tokenSymbol, {from: account_one});
+            owner = account_one;
+        });
 
-    //     it('should fail when minting when address is not contract owner', async function () { 
-            
-    //     })
+        it('should fail when minting when address is not contract owner', async function () { 
+            const tx = instance.mint(account_two, tokens[0], { from: account_two });
+            await truffleAssert.reverts(tx);
+        });
 
-    //     it('should return contract owner', async function () { 
-            
-    //     })
-
-    // });
+        it('should return contract owner', async function () { 
+            const instanceOwner = await instance.getOwner({ from: account_four });
+            assert.equal(instanceOwner, owner);
+        });
+    });
 })
