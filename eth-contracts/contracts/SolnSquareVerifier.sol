@@ -27,7 +27,7 @@ contract SolnSquareVerifier is HouseToken {
     // TODO Create an event to emit when a solution is added
     event SolutionAdded(uint256 solutionIndex, address solutionAddress);
 
-    constructor(address verifierAddress) public {
+    constructor(address verifierAddress, string memory name, string memory symbol) HouseToken(name, symbol) public {
         _verifier = Verifier(verifierAddress);
     }
     // TODO Create a function to add the solutions to the array and emit the event

@@ -258,6 +258,7 @@ contract ERC721 is Pausable, ERC165 {
         // TODO: clear approval
         _clearApproval(tokenId);
         // TODO: update token counts & transfer ownership of the token ID 
+        _tokenOwner[tokenId] = to;
         _ownedTokensCount[from].decrement();
         _ownedTokensCount[to].increment();
         // TODO: emit correct event
@@ -525,12 +526,10 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
 
 //  TODO's: Create CustomERC721Token contract that inherits from the ERC721Metadata contract. You can name this contract as you please
 contract HouseToken is ERC721Metadata {
-    string private _name = 'HouseToken';
-    string private _symbol = 'HOUSE';
     //  1) Pass in appropriate values for the inherited ERC721Metadata contract
     //      - make the base token uri: https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/
     string private _baseTokenURI = 'https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/';
-    constructor() public ERC721Metadata(_name, _symbol, _baseTokenURI) {}
+    constructor(string memory _name, string memory _symbol) public ERC721Metadata(_name, _symbol, _baseTokenURI) {}
     //  2) create a public mint() that does the following:
     function mint(address to, uint256 tokenId) public onlyOwner returns(bool) {
         //      -can only be executed by the contract owner
