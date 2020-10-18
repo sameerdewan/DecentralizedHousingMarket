@@ -42,6 +42,14 @@
     3. https://rinkeby.opensea.io/assets/0x990a54cc8b7cd7c8977e598fafd04b7bf992bc5f/3
     4. https://rinkeby.opensea.io/assets/0x990a54cc8b7cd7c8977e598fafd04b7bf992bc5f/4
 
+##### Original Owner
+    0xDAbE176f49fB5c8017Fd619Be0cd07802552c48c
+
+##### Buyer / New Owner
+    0x84b8F6d1133513EA7Dec2DebBE74803f44fB8A72
+
+### Transactions From Original Owner -> Buyer / New Owner
+
 ### Contracts
     HouseToken: https://rinkeby.etherscan.io/token/0x990A54cC8B7CD7c8977E598faFD04b7Bf992bc5f
     SolnSquareVerifier: https://rinkeby.etherscan.io/address/0x990A54cC8B7CD7c8977E598faFD04b7Bf992bc5f
