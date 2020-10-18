@@ -49,6 +49,12 @@
     0x84b8F6d1133513EA7Dec2DebBE74803f44fB8A72
 
 ### Transactions From Original Owner -> Buyer / New Owner
+    Transactions for Listings 0 - 4 (Total = 5)
+    0. https://rinkeby.etherscan.io/tx/0xb0b18cc0572a4d79f4b172a68b68d7a18a3183479c48a4d8d86db4a16899181e
+    1. https://rinkeby.etherscan.io/tx/0xea1cd549139c89f9abe26fccfe39ab2f9f5bc46ca0a634ff7ca79472871f4513
+    2. https://rinkeby.etherscan.io/tx/0xfae3d345badd8e78ff6fad9acb5df9e84614a3bf1eae3b4e05d99720cecfcf84
+    3. https://rinkeby.etherscan.io/tx/0x487c260cfb3d67704968033ff672b238c66cd7bfb6898ec72e9e0a09d3659d52
+    4. https://rinkeby.etherscan.io/tx/0xe96abce8e576a8fcc0d97178654938d5d44deaa8d32ab538f67d57f867734ac8
 
 ### Contracts
     HouseToken: https://rinkeby.etherscan.io/token/0x990A54cC8B7CD7c8977E598faFD04b7Bf992bc5f
