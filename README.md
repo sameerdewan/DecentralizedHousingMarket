@@ -12,6 +12,10 @@
     ganache-cli
     truffle test
 
+### Minting New Tokens
+    https://mycrypto.com/contracts/interact 
+    ABI can be found in build, and the addresses needed in the compilation output below.
+
 ### Token
     Name: HouseToken
     Symbol: HOUSE
