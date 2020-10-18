@@ -21,7 +21,7 @@
     Symbol: HOUSE
     Contract Address: https://rinkeby.etherscan.io/token/0x990A54cC8B7CD7c8977E598faFD04b7Bf992bc5f
 
-#### Token Mints
+##### Token Mints
     Mint Transaction for Tokens 0 - 9 (Total = 10)
     0. https://rinkeby.etherscan.io/tx/0xd92b7cfc9dd9bf626eb0d9429d9e94c97ecdd54cbc49221f420c6fcc274f16be 
     1. https://rinkeby.etherscan.io/tx/0x3842e70edc17c80133fd2a53358069fa062a86baad2abe0dd0cefadd6984de03
@@ -34,7 +34,7 @@
     8. https://rinkeby.etherscan.io/tx/0xa56c8163cbe418c20319cff32985779960710c72ffcc0329082fc9dfbefa6a58
     9. https://rinkeby.etherscan.io/tx/0x6cceebf9701f18ca9acf7cfa0203a451ff40c6cbab73cedea781d8756b63ae1a
 
-#### OpenSea Listings
+##### OpenSea Listings
     Token Listings 0 - 4 (Total = 5)
     0. https://rinkeby.opensea.io/assets/0x990a54cc8b7cd7c8977e598fafd04b7bf992bc5f/0
     1. https://rinkeby.opensea.io/assets/0x990a54cc8b7cd7c8977e598fafd04b7bf992bc5f/1
