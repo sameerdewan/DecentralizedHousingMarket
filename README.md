@@ -9,6 +9,7 @@
 
 ### How To Test
     cd eth-contracts/test
+    ganache-cli
     truffle test
 
 ### Token
