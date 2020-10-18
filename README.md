@@ -48,7 +48,7 @@
 ##### Buyer / New Owner
     0x84b8F6d1133513EA7Dec2DebBE74803f44fB8A72
 
-### Transactions From Original Owner -> Buyer / New Owner
+##### Transactions From Original Owner -> Buyer / New Owner
     Transactions for Listings 0 - 4 (Total = 5)
     0. https://rinkeby.etherscan.io/tx/0xb0b18cc0572a4d79f4b172a68b68d7a18a3183479c48a4d8d86db4a16899181e
     1. https://rinkeby.etherscan.io/tx/0xea1cd549139c89f9abe26fccfe39ab2f9f5bc46ca0a634ff7ca79472871f4513
